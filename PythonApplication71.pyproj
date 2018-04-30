@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f1f780e5-2461-4892-9c21-36897336f1c2</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>diffsample.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication71</Name>
+    <RootNamespace>PythonApplication7</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="calendarsample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="copy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csvreader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="diffsample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="enum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Thread.py" />
+    <Compile Include="webbrowsersample.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dat\" />
+    <Folder Include="dat\sampleData\" />
+    <Folder Include="dat\sampleData\000\" />
+    <Folder Include="dat\sampleData\000\000\" />
+    <Folder Include="dat\sampleData\000\000\0000001\" />
+    <Folder Include="dat\sampleData\000\000\0000001\20000401\" />
+    <Folder Include="dat\sampleData\000\000\0000001\20000401\ADT-31\" />
+    <Folder Include="dat\sampleData\000\000\0000001\20000401\OMP-11\" />
+    <Folder Include="dat\sampleData\999\" />
+    <Folder Include="dat\sampleData\999\901\" />
+    <Folder Include="dat\sampleData\999\901\9999013\" />
+    <Folder Include="dat\sampleData\999\901\9999013\-\" />
+    <Folder Include="dat\sampleData\999\901\9999013\-\ADT-00\" />
+    <Folder Include="dat\sampleData\999\901\9999013\-\ADT-61\" />
+    <Folder Include="dat\sampleData\999\901\9999013\-\PPR-01\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20110630\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20110630\OMP-11\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20110701\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20110701\OMP-01\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20110701\OMP-02\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20110701\OMP-12\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111013\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111013\OMD\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111120\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111120\ADT-22\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\ADT-42\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\ADT-52\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OMG-01\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OMG-02\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OMG-03\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OMG-11\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OMG-12\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OMG-13\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OML-01\" />
+    <Folder Include="dat\sampleData\999\901\9999013\20111220\OML-11\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dat\sample1.csv" />
+    <Content Include="dat\sample2.csv" />
+    <Content Include="dat\sampleData\000\000\0000001\20000401\ADT-31\9999013_20110630_OMP-11_123456789012345_20110701113813225_01_1" />
+    <Content Include="dat\sampleData\000\000\0000001\20000401\OMP-11\0000001_20000401_OMP-11_123456789012345_20110701113813225_01_1" />
+    <Content Include="dat\sampleData\000\000\0000001\20000401\OMP-11\0000001_20000401_OMP-11_123456789012346_20110701113813226_01_0" />
+    <Content Include="dat\sampleData\999\901\9999013\-\ADT-00\9999013_-_ADT-00_999999999999999_20111220224447339_-_0" />
+    <Content Include="dat\sampleData\999\901\9999013\-\ADT-00\9999013_-_ADT-00_999999999999999_20111220224447339_-_1" />
+    <Content Include="dat\sampleData\999\901\9999013\-\ADT-61\9999013_-_ADT-61_999999999999999_20111014232213000_-_1" />
+    <Content Include="dat\sampleData\999\901\9999013\-\PPR-01\9999013_-_PPR-01_999999999999999_20111209163030000_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20110630\OMP-11\9999013_20110630_OMP-11_123456789012345_20110701113813225_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20110701\OMP-01\9999013_20110701_OMP-01_000000011000185_20110701224603984_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20110701\OMP-02\9999013_20110701_OMP-02_123456789012345_20110701224603984_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20110701\OMP-12\9999013_20110701_OMP-12_123456789012345_20110701113813225_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111013\OMD\9999013_20111013_OMD_123456789012345_20111014232213000_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111120\ADT-22\9999013_20111120_ADT-22_999999999999999_20111220224447339_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\ADT-42\9999013_20111220_ADT-42_999999999999999_20111220224447339_10_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\ADT-52\9999013_20111220_ADT-52_999999999999999_20111220224447339_08_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OMG-01\9999013_20111220_OMG-01_000201101200100_20111220224447339_-_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OMG-02\9999013_20111220_OMG-02_201212201252100_20111220224447339_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OMG-03\9999013_20111220_OMG-03_201112200089100_20111220224447339_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OMG-11\9999013_20111220_OMG-11_2011122000300_20111220224447339_24_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OMG-12\9999013_20111220_OMG-12_201112201656100_20111220224447339_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OMG-13\9999013_20111220_OMG-13_999999999999999_20111220224447339_01_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OML-01\9999013_20111220_OML-01_000000011000354_20111220103059123_15_1" />
+    <Content Include="dat\sampleData\999\901\9999013\20111220\OML-11\9999013_20111220_OML-11_000000011000354_20111220103059000_01_1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
